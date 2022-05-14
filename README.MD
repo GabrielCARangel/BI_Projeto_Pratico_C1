@@ -31,26 +31,10 @@ Data Lake com os dados brutos se encontra no arquivo sql:
 
 ## Mapeamento de indicadores:
 
-Fato: fkNome | fkSex |  | id_Games | desc_Games
-Dimensão: Event | Sport | City | NOC (Países) | Nome | Sex | Age | Height | Weight | Team | Medal | Season
 
-##  Modelo de dados dimensional: (Em produção)
 
-          Table dim_NOC(
-            id_NOC int not null auto_increment primary key,
-            desc_NOC varchar(max) not null -->> isso é o NOC da table mytable
-          )
+##  Modelo de dados dimensional:
 
-          Table dim_City(
-            id_City int not null auto_increment primary key,
-            desc_City varchar(max) not null -->> isso é o City da table mytable
-          )
 
-          Table fato_Jogos(
-            id int not null auto_increment primary key,
-            id_NOC int not null auto_increment (fk),
-            id_City int not null auto_increment (fk)
-            Games varchar not null
-          )
 
 ## Transformações do PDI:
