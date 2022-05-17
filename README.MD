@@ -25,20 +25,20 @@
 
 ## Fontes de dados:
 
-Dataset com 120 anos de informações sobre os jogos olímpicos:
-  - athlete_events.csv.
-    - [Fonte](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
+- Dataset com 120 anos de informações sobre os jogos olímpicos:
+  - [athlete_events.csv](/Dataset/athlete_events.csv)
+  - [Fonte](https://www.kaggle.com/heesoo37/120-years-of-olympic-history-athletes-and-results)
 
 ## Data Lake com os dados:
 
   - Data Lake com os dados brutos se encontra no arquivo sql:
-    - Atletas dos Jogos Olímpicos.sql.
+    - [Atletas dos Jogos Olímpicos.sql](/Data%20Lake/Atletas%20dos%20Jogos%20Ol%C3%ADmpicos.sql)
 
 ## Operações de limpeza: 
 
   - Não foi realizado nenhuma limpeza de dados no dataset, porém foi realizado preenchimento para dados ausentes (peso, altura e idade).
   - Esse preenchimento se encontra no arquivo sql:
-    - Preenchimentos de Dados.sql.
+    - [Preenchimentos de Dados.sql](/Opera%C3%A7%C3%B5es/Preenchimento%20de%20Dados.sql)
 
 ## Mapeamento de indicadores, dimensões e fatos:
 
@@ -50,7 +50,7 @@ Dataset com 120 anos de informações sobre os jogos olímpicos:
       - idSex
       - descSex
     - Tabela Age:
-      - id_ge
+      - id_Age
       - descAge
     - Tabela Height:
       - idHeight
@@ -89,6 +89,6 @@ Dataset com 120 anos de informações sobre os jogos olímpicos:
 
 ##  Modelo de dados dimensional:
 
-  ![Modelo Estrela](./Modelo%20Dimensional/Atletas%20dos%20Jogos%20Ol%C3%ADmpicos.pdf "Modelo Estrela")
+  - [Modelo Estrela](/Modelo%20Dimensional/Atletas%20dos%20Jogos%20Ol%C3%ADmpicos.pdf)
 
 ## Transformações do PDI:
